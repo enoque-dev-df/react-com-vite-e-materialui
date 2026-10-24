@@ -1,0 +1,15 @@
+{
+  "name": "rvmui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix be\" \"npm run dev --prefix fe\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^10.0.4"
+  }
+}

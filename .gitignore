@@ -1,0 +1,9 @@
+# Dependências
+# node_modules/ ignora todas as pastas chamadas node_modules no projeto, inclusive as de fe e be.
+node_modules/
+fe/node_modules/
+be/node_modules/
+
+# Variáveis de ambiente
+# be/.env ignora especificamente o arquivo .env dentro de be
+be/.env
